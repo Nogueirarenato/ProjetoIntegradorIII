@@ -1,0 +1,39 @@
+
+.center{
+    text-align: center;
+}
+
+.az{
+    background-color: blue;
+}
+
+.am{
+    background-color: yellow;
+
+}
+.am3{
+    background-color: rgb(245, 186, 60);
+
+}
+
+.am2{
+    background-color: rgb(241, 127, 21);
+
+}
+
+.vd{
+    background-color: green;
+}
+
+.inv{
+    color: rgba(246, 255, 246, 0);
+}
+
+.vm{
+    background-color: red;
+}
+
+.fonteMais{
+    font-size: 10em;
+}
+

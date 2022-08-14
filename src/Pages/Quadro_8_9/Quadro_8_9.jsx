@@ -175,7 +175,7 @@ class Quadro_8_9 extends React.Component {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json",
-                    Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
+                   // Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
                 },
                 body: JSON.stringify({
 
@@ -205,7 +205,7 @@ class Quadro_8_9 extends React.Component {
                 method: 'DELETE',
                 headers: {
                     "Content-Type": "application/json",
-                    Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
+                   // Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
                 },
                 body: JSON.stringify({
 

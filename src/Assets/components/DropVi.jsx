@@ -29,7 +29,7 @@ export default class Drop extends React.Component {
             method: 'PUT',
             headers: {
                 "Content-Type": "application/json",
-                Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
+                //Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
             },
             body: JSON.stringify({
                 "id": id,

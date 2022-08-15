@@ -2,7 +2,8 @@
   "name": "projetoquadrodigital",
   "version": "0.1.0",
   "engines": {
-    "node": "v14.18.2"
+    "node": "v14.18.2",
+    "npm": "8.15.0"
   },
   "private": true,
   "dependencies": {

@@ -152,7 +152,8 @@ class Visual89 extends React.Component {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",
-                Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
+                mode: 'no-cors',
+                //Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
             }
         }
         ).then(response => response.json())

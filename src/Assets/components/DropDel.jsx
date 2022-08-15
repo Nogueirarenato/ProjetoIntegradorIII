@@ -18,7 +18,8 @@ export default class DropDel extends React.Component {
             method: 'DELETE',
             headers: {
                 "Content-Type": "application/json",
-                Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
+                mode: 'no-cors',
+               // Authorization: "Bearer " + localStorage.getItem('TOKEN_KEY')
             },
             body: JSON.stringify({
                 "id": id

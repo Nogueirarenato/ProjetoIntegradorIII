@@ -11876,7 +11876,7 @@ class Quadro_8_9 extends React.Component {
 
                 <Drag><DropDel id="trash"  ><img src={Trash} alt="lixeira" style={{ maxWidth: '3vw', marginLeft: '3vw' }} id="trash2" cor="a" cordofundo="a" cordotexto="a" etiqueta="a" hora="a" observacao="a" sinalanterior="a" sinalatual="a" /></DropDel></Drag>
 
-                        <div><p style={{textAlign: 'right'}}>Desenvolvido por Renato Nogueira 2020</p></div>
+                <div><p style={{textAlign: 'right', marginRight: '2vw'}}>Desenvolvido por Grupo 62 - Univesp - 2º sem 2022</p></div>
             </div>
 
 

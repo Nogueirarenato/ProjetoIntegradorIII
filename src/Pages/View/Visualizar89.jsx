@@ -11734,8 +11734,9 @@ class Visual89 extends React.Component {
      
          <div style={{display: 'flex', width: "100vw"}}>
                         <div><p style={{marginLeft:'2vw'}}>{this.state.contador}</p></div>
-                        <div><p style={{marginLeft: '78vw', width: "20vw"}}> Desenvolvido por Renato N. - <b>DORB  2020 </b></p></div>
+                        
                         </div>
+                        <div><p style={{textAlign: 'right', marginRight: '2vw'}}>Desenvolvido por Grupo 62 - Univesp - 2º sem 2022</p></div>
             </div>
 
 

@@ -21,7 +21,7 @@ const routing = (
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact={true} component={Login} />
+        <Route path="/" exact={true} component={Patio_8_9} />
         <Route path="/Menu" component={Menu} />
         <Route path="/Patio_7_10" component={Patio_7_10} />
         <Route path="/Patio_8_9" component={Patio_8_9} />
